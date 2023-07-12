@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -lne 'print if $. % 2 ==1'
+awk '{if ((NR+2) % 2 == 1) print $0}'
