@@ -1,2 +1,2 @@
 #!/bin/bash
-karim=$((2#$BINARY))| echo "obase=16; $Karim" | bc
+echo $((2#$BINARY))
